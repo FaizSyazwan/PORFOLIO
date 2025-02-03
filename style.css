@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.kotak-kiri {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: silver;
+}
+
+.gambar-sultan {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.gambar {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.text {
+    font-style: italic;
+    font-size: 200%;
+}
+
+.butang {
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.butang:hover {
+    background-color: #1b1f34;
+    color: white;
+    transition: 0.5s;
+}
+
+.kotak-kanan {
+    position: absolute;
+    left: 400px;
+}
+
+.navigation {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.biodata {
+    font-style: italic;
+    font-size: 4.0rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar {
+    float: right;
+    padding-right: 100px;
+    
+
+}
+
+#sukan {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#kehidupan {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#pemerintahan {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.box {
+    width: 160px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.box:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+p {
+    font-size: 30px;
+}
